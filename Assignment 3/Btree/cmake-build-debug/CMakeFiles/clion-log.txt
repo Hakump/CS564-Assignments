@@ -1,0 +1,4 @@
+H:\Programs\apps\CLion\ch-0\192.6603.37\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\ZK Hao\Desktop\Fall 2019\CS 564\HW\Assignment 3\Btree"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/ZK Hao/Desktop/Fall 2019/CS 564/HW/Assignment 3/Btree/cmake-build-debug

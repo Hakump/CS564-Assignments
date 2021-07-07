@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/ZK Hao/Desktop/Fall 2019/CS 564/HW/Assignment 1/code/wl.cpp
+iostream
+-
+string
+-
+unordered_map
+-
+list
+-
+vector
+-
+wl.h
+C:/Users/ZK Hao/Desktop/Fall 2019/CS 564/HW/Assignment 1/code/wl.h
+regex
+-
+cctype
+-
+fstream
+-
+
+C:/Users/ZK Hao/Desktop/Fall 2019/CS 564/HW/Assignment 1/code/wl.h
+

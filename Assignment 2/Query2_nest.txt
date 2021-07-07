@@ -1,0 +1,9 @@
+--Part 2-1
+select N.N_NAME, SUM(L.L_QUANTITY*(L.L_EXTENDEDPRICE - L.L_DISCOUNT))
+from NATION N, LINEITEM L, SUPPLIER S
+where N.N_NATIONKEY == S.S_NATIONKEY and S.S_SUPPKEY == L.L_SUPPKEY and
+      L.L_ORDERKEY in (select O.O_ORDERKEY
+                       from CUSTOMER C, ORDERS O, LINEITEM L1
+                       where C.C_CUSTKEY == O.O_CUSTKEY and C.C_NATIONKEY == N.N_NATIONKEY
+                         and O.O_ORDERKEY == L1.L_ORDERKEY and L1.L_ORDERKEY == L.L_ORDERKEY)
+group by N_NATIONKEY order by N.N_NAME COLLATE NOCASE;

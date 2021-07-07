@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="Wisc (9fcfbc40-ae0d-4609-ab01-ef559625bb09)" showNewOnSourceInSync="false">
+    <serverData>
+      <paths name="Wisc (9fcfbc40-ae0d-4609-ab01-ef559625bb09)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/private/CS564/HW3/Btree/src" local="$PROJECT_DIR$/src" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
